@@ -70,7 +70,8 @@ public class Main {
         int countClassroom = totalPaint / paintToClassroomAll;
         int paintWhite = countClassroom * paintToClassroomWhite;
         int paintBraun = countClassroom * paintToClassroomBraun;
-        System.out.println("В школе, где "+countClassroom+" классов, нужно "+paintWhite+" банок белой краски и "+paintBraun+" банок коричневой краски");
+        System.out.println("В школе, где "+countClassroom+" классов, нужно "+paintWhite+" банок белой краски и "+
+                paintBraun+" банок коричневой краски");
     }
 
     public static void task6 () {
@@ -79,9 +80,9 @@ public class Main {
         short milk100mlWeight = 105;
         short icecreamWeight = 100;
         short eggWeight = 70;
-        float totalWeight;
+        int totalWeight;
         totalWeight = bananWeight * 5 + milk100mlWeight * 2 + icecreamWeight * 2 + eggWeight * 4;
-        float totalWeightKg = totalWeight / 1000;
+        float totalWeightKg = totalWeight / 1000f;
         System.out.println("Общий вес - " + (short) totalWeight+ " г. (" +totalWeightKg+ " кг.)");
     }
 
@@ -103,18 +104,21 @@ public class Main {
         int salaryMashaAdd = salaryMasha / 10;
         int salaryMashaNew =  salaryMasha + salaryMashaAdd;
         int salaryMashaDifYear = salaryMashaAdd * 12;
-        System.out.println("Маша теперь получает "+salaryMashaNew+" рублей. Годовой доход вырос на "+salaryMashaDifYear+" рублей");
+        System.out.println("Маша теперь получает "+salaryMashaNew+" рублей. Годовой доход вырос на "+
+                 salaryMashaDifYear+" рублей");
 
         int salaryDenis = 83690;
         int salaryDenisAdd = salaryDenis / 10;
         int salaryDenisNew =  salaryDenis + salaryDenisAdd;
         int salaryDenisDifYear = salaryDenisAdd * 12;
-        System.out.println("Денис теперь получает "+salaryDenisNew+" рублей. Годовой доход вырос на "+salaryDenisDifYear+" рублей");
+        System.out.println("Денис теперь получает "+salaryDenisNew+" рублей. Годовой доход вырос на "+
+                salaryDenisDifYear+" рублей");
 
         int salaryKristina = 76230;
         int salaryKristinaAdd = salaryKristina / 10;
         int salaryKristinaNew =  salaryKristina + salaryKristinaAdd;
         int salaryKristinaDifYear = salaryKristinaAdd * 12;
-        System.out.println("Кристина теперь получает "+salaryKristinaNew+" рублей. Годовой доход вырос на "+salaryKristinaDifYear+" рублей");
+        System.out.println("Кристина теперь получает "+salaryKristinaNew+" рублей. Годовой доход вырос на "+
+                salaryKristinaDifYear+" рублей");
     }
 }
